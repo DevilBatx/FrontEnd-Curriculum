@@ -1,0 +1,112 @@
+:root{
+    --celeste: #C5E3FF;
+}
+
+html {
+    font-family:'Tiro Gurmukhi', serif;
+
+}
+
+body {
+    margin: 0%;
+    background-image: url(https://images4.alphacoders.com/144/144554.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header img {
+    width: 5%;
+    height: 10%;
+    z-index: +1;
+    margin-top: -0.5%;
+
+}
+
+header {
+    background-color: var(--celeste);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: black;
+    font-weight:701;
+    font-size: 35px;
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    
+}
+
+main a {
+    margin-left: -95.5%;
+}
+
+main img {
+    width: 10%;
+    height: 15%;
+    margin-top: 4%;
+    border-radius: 100px;
+}
+
+main div h2 {
+    color: black;
+    background-color: var(--celeste);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+main h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: -2%;
+}
+
+main div ul {
+    color: white;
+    line-height: 40px;
+    margin-left: -12%;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+main h3 {
+    color: black;
+    font-size: 30px;
+    background-color: var(--celeste);
+}
+
+footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+
+footer h3 {
+    font-size: 35px;
+    font-weight: bolder;
+
+
+}
+
+footer img {
+    width: 5%;
+    height: 10%;
+}
